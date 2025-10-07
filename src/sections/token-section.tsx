@@ -1,6 +1,9 @@
+"use client";
+
 import { ContractDisplay } from "../components/contract-display";
 import { TokenFeature } from "../components/token-feature";
 import { VideoBackground } from "@/components/video-background";
+import { useEffect, useRef } from "react";
 
 const tokenFeatures = [
   { iconPath: "/icon-square-star.svg", title: "UNLOCK PREMIUM\nAI FEATURES" },
@@ -20,6 +23,27 @@ const tokenFeatures = [
 ];
 
 export function TokenSection() {
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+
+    const handleLoadedData = () => {
+      // Explicitly try to play for Safari
+      video.play().catch((error) => {
+        console.log("Video autoplay failed:", error);
+      });
+    };
+
+    video.addEventListener("loadeddata", handleLoadedData);
+    video.load();
+
+    return () => {
+      video.removeEventListener("loadeddata", handleLoadedData);
+    };
+  }, []);
+
   return (
     <section
       id="token"
@@ -27,10 +51,13 @@ export function TokenSection() {
     >
       <div className="absolute inset-0 overflow-hidden flex items-center md:items-start">
         <video
+          ref={videoRef}
           autoPlay
           muted
           loop
           playsInline
+          preload="auto"
+          poster="/bg-token.webp"
           className="w-full h-[50%] -translate-y-16 object-cover md:translate-y-8 md:h-full"
         >
           <source src="/bg-token.mp4" type="video/mp4" />

@@ -18,11 +18,25 @@ export function VideoBackground({
   const [isVideoLoaded, setIsVideoLoaded] = useState(false);
 
   useEffect(() => {
-    if (videoRef.current) {
-      videoRef.current.addEventListener("loadeddata", () => {
-        setIsVideoLoaded(true);
+    const video = videoRef.current;
+    if (!video) return;
+
+    const handleLoadedData = () => {
+      setIsVideoLoaded(true);
+      // Explicitly try to play for Safari
+      video.play().catch((error) => {
+        console.log("Video autoplay failed:", error);
       });
-    }
+    };
+
+    video.addEventListener("loadeddata", handleLoadedData);
+
+    // Try to load and play immediately
+    video.load();
+
+    return () => {
+      video.removeEventListener("loadeddata", handleLoadedData);
+    };
   }, []);
 
   return (
@@ -41,7 +55,10 @@ export function VideoBackground({
         muted
         loop
         playsInline
+        preload="auto"
+        poster={posterSrc}
         className={`absolute inset-0 w-full h-full transition-opacity duration-500 ${isVideoLoaded ? "opacity-100" : "opacity-0"} ${className}`}
+        style={{ objectFit: 'cover' }}
       >
         <source src={videoSrc} type="video/mp4" />
       </video>
