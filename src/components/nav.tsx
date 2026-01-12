@@ -37,11 +37,6 @@ export function Nav() {
     { label: "FAQs", id: "faq", type: "scroll" },
     { label: "Community", id: "community", type: "scroll" },
     { label: "Founders Key", id: "/founders-key", type: "link" },
-    {
-      label: "Early Access",
-      id: "https://early.krain.ai",
-      type: "external-link",
-    },
   ];
 
   type NavItem = (typeof navItems)[number]; // Define NavItem type
@@ -130,19 +125,19 @@ export function Nav() {
           </div>
 
           {/* Desktop CTA */}
-          {/* <div className="hidden lg:block shrink-0">
-            <Link href="https://airdrop.krain.ai">
-              <GradientButton>Enter app</GradientButton>
+          <div className="hidden lg:block shrink-0">
+            <Link href="https://app.krain.ai">
+              <GradientButton>Enter App</GradientButton>
             </Link>
-          </div> */}
+          </div>
 
           {/* Mobile & Tablet Navigation */}
           <div className="flex lg:hidden items-center gap-4 pr-4">
-            {/* <Link href="https://early.krain.ai">
+            <Link href="https://app.krain.ai">
               <GradientButton className="px-4 py-2.5 text-sm">
-                Enter app
+                Enter App
               </GradientButton>
-            </Link> */}
+            </Link>
             <button
               className="p-2 text-white relative"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}

@@ -31,7 +31,7 @@ const footerLinks: {
   company: [
     { href: "https://krain.gitbook.io/krain", label: "Docs" },
     { href: "/brand-kit", label: "Brand Kit" },
-    { href: "https://early.krain.ai", label: "Early Access" },
+    { href: "https://app.krain.ai", label: "Enter App" },
     { href: "mailto:contact@krain.ai", label: "Contact" },
   ],
 };
