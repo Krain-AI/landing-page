@@ -2,6 +2,18 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   turbopack: {},
+  async rewrites() {
+    return [
+      {
+        source: "/a/script.js",
+        destination: "https://media-server.tail0af452.ts.net:10000/script.js",
+      },
+      {
+        source: "/a/api/send",
+        destination: "https://media-server.tail0af452.ts.net:10000/api/send",
+      },
+    ];
+  },
   images: {
     remotePatterns: [
       {

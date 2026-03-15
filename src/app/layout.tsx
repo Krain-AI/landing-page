@@ -7,6 +7,7 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Link from "next/link";
 import { Nav } from "@/components/nav";
+import Script from "next/script";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -73,6 +74,11 @@ export default function RootLayout({
           <main className="pt-0">{children}</main>
           <Analytics />
           <SpeedInsights />
+          <Script
+            src="/a/script.js"
+            data-website-id="a0e9e4d1-4e45-418f-8541-115025ef7bc6"
+            strategy="afterInteractive"
+          />
         </ThemeProvider>
       </body>
     </html>
