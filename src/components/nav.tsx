@@ -36,6 +36,7 @@ export function Nav() {
     { label: "Roadmap", id: "roadmap", type: "scroll" },
     { label: "FAQs", id: "faq", type: "scroll" },
     { label: "Community", id: "community", type: "scroll" },
+    { label: "Whitepaper", id: "/whitepaper", type: "link" },
     { label: "Founders Key", id: "/founders-key", type: "link" },
   ];
 

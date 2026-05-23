@@ -29,6 +29,7 @@ const footerLinks: {
     { href: "#community", label: "Community" },
   ],
   company: [
+    { href: "/whitepaper", label: "Whitepaper" },
     { href: "https://krain.gitbook.io/krain", label: "Docs" },
     { href: "/brand-kit", label: "Brand Kit" },
     { href: "https://app.krain.ai", label: "Enter App" },
