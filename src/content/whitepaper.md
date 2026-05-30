@@ -1,13 +1,13 @@
 ---
 title: "KRAIN Whitepaper"
-version: "v2.0 — Draft"
-updated: "2026-05-23"
-status: "Working draft for review. Subject to revision."
+version: "v2.0"
+updated: "2026-05-30"
+status: "Living specification. Token parameters and timelines are refined ahead of mainnet. Nothing herein is an offer to sell securities."
 ---
 
 # KRAIN: Infrastructure for the AI Economy
 
-**Whitepaper v2.0 — Working Draft**
+**Whitepaper v2.0**
 
 > This document is a living technical and economic specification. Specific dates, contract addresses, and final parameters will be confirmed prior to mainnet. Nothing herein constitutes an offer to sell securities.
 
@@ -176,6 +176,8 @@ The $KRAIN token is the single native economic asset of the KRAIN ecosystem. It 
 | Liquidity | 4% | 40M | DEX/CEX market-making at TGE |
 
 The allocation profile is in line with established L2 precedent (Arbitrum, Optimism). Team allocation is slightly lower than Arbitrum's 27% to reflect a lean founding team and to bias more supply toward ecosystem growth.
+
+Genesis and pre-formation contributors — early contractors, moderators, ambassadors, and others who supported the project before the protocol's formation — are recognized within the existing Team and Ecosystem & Developer allocations under standardized contributor terms and standard vesting. These commitments sit inside the buckets above and create no additional dilution. Contributor allocations are distributed in $KRAIN under the same terms that apply to comparable categories, and details of how recognized contributors receive and claim their allocation are published through the official KRAIN community channels.
 
 ### 5.3 Vesting
 
