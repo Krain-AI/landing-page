@@ -11,6 +11,10 @@ status: "Living specification. Token parameters and timelines are refined ahead 
 
 > This document is a living technical and economic specification. Specific dates, contract addresses, and final parameters will be confirmed prior to mainnet. Nothing herein constitutes an offer to sell securities.
 
+> 🗳️ **This is a living document — help shape it.** KRAIN is being built in the open. Read it, leave feedback, and vote on the open design questions alongside the rest of the community. We're weighing input from our market-making partners and every contributor as we refine toward mainnet, and the next revision will reflect what we hear.
+>
+> **[Join the discussion + vote on Discord](https://discord.gg/krain-ai-1372610722592456804)** · **[Telegram](https://t.me/krainofficial)**
+
 ---
 
 ## 1. Executive Summary
@@ -308,6 +312,16 @@ KRAIN combines three things that no other AI x crypto project has assembled into
 The marketplace is operating today. The protocol is in pre-mainnet engineering. The token's economics are designed so that every unit of inference, every agent-to-agent payment, and every agent launch contributes mechanically to $KRAIN value accrual through fee-funded buybacks and real staking yield.
 
 The remainder of the work is execution.
+
+---
+
+## Help shape v2.1
+
+This whitepaper is a living document, and the next revision will reflect what the community and our partners tell us. We want your read on the open questions — the buyback rate, the airdrop and anti-dump mechanics, the vesting cliffs, the staking model, and the exchange-listing criteria.
+
+Leave feedback and vote in the community. Every voice counts, and we will adjust as the input warrants.
+
+**[Discuss + vote on Discord](https://discord.gg/krain-ai-1372610722592456804)** · **[Telegram](https://t.me/krainofficial)**
 
 ---
 
