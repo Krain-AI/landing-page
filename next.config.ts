@@ -7,11 +7,11 @@ const nextConfig: NextConfig = {
     return [
       {
         source: "/a/script.js",
-        destination: "https://media-server.tail0af452.ts.net:10000/script.js",
+        destination: "https://gb10.tail0af452.ts.net:8444/script.js",
       },
       {
         source: "/a/api/send",
-        destination: "https://media-server.tail0af452.ts.net:10000/api/send",
+        destination: "https://gb10.tail0af452.ts.net:8444/api/send",
       },
     ];
   },
