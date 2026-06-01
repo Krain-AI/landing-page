@@ -5,8 +5,10 @@ FROM node:22-alpine AS base
 RUN apk add --no-cache libc6-compat
 WORKDIR /app
 
-# Install pnpm
-RUN corepack enable && corepack prepare pnpm@latest --activate
+# Install pnpm — PINNED to 9.x to match lockfileVersion 9.0.
+# Do NOT use pnpm@latest: pnpm 10+ turns ignored build scripts (sharp, @tailwindcss/oxide)
+# into a hard ERR_PNPM_IGNORED_BUILDS error, which broke this build.
+RUN corepack enable && corepack prepare pnpm@9.15.0 --activate
 
 # ---- deps ----
 FROM base AS deps
