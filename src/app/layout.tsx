@@ -55,21 +55,17 @@ export default function RootLayout({
           enableSystem={false}
           disableTransitionOnChange
         >
-          <div
-            className="fixed top-0 left-0 right-0 z-[60] h-10 flex items-center justify-center text-white text-sm font-medium px-4"
+          <Link
+            href="/whitepaper"
+            className="fixed top-0 left-0 right-0 z-[70] h-10 flex items-center justify-center text-white text-xs sm:text-sm font-medium px-4 hover:opacity-90 transition-opacity text-center"
             style={{
               background: `linear-gradient(120deg, #1FC5D6 0%, #915BF0 50%, rgb(47, 45, 64) 75%)`,
-              display: "none",
             }}
           >
-            Announcing the Founders Key Sale!&nbsp;
-            <Link
-              href="/founders-key"
-              className="underline hover:opacity-80 transition-opacity"
-            >
-              Learn More
-            </Link>
-          </div>
+            📄&nbsp;<span className="font-semibold">Whitepaper v2 is live</span>
+            <span className="hidden sm:inline">&nbsp;— read it and share your feedback to help shape v2.1</span>
+            <span className="underline ml-2">Read it →</span>
+          </Link>
           <Nav />
           {/* with top banner use "pt-[calc(2.5rem+theme(spacing.24))]" */}
           <main className="pt-0">{children}</main>
