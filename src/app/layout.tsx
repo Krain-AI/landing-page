@@ -15,6 +15,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://krain.ai"),
   title: "Krain AI - Infrastracture for the AI Economy",
   description:
     "From discovery to creation, we are accelerating the AI App ecosystem with intelligent infrastructure.",
