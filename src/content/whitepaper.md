@@ -2,18 +2,19 @@
 title: "KRAIN Whitepaper"
 version: "v2.0"
 updated: "2026-05-30"
-status: "Living specification. Token parameters and timelines are refined ahead of mainnet. Nothing herein is an offer to sell securities."
+status: "Work-in-progress draft, open for community review. Token parameters and timelines are rough targets, refined ahead of mainnet. Nothing herein is an offer to sell securities."
 ---
 
 # KRAIN: Infrastructure for the AI Economy
 
-**Whitepaper v2.0**
+**Whitepaper v2.0 — Work in Progress · Draft for Community Review**
 
-> This document is a living technical and economic specification. Specific dates, contract addresses, and final parameters will be confirmed prior to mainnet. Nothing herein constitutes an offer to sell securities.
+> ⚠️ **This is a working draft, not a final document.** It is published openly so the community can read it, pull it apart, and help shape the final version. Specific dates, contract addresses, and final parameters will be confirmed prior to mainnet. Nothing herein constitutes an offer to sell securities.
 
-> 🗳️ **This is a living document — help shape it.** KRAIN is being built in the open. Read it, leave feedback, and vote on the open design questions alongside the rest of the community. We're weighing input from our market-making partners and every contributor as we refine toward mainnet, and the next revision will reflect what we hear.
+> 🗣️ **We want your feedback.** Don't just read it — tell us what's strong, what's unclear, and what you'd change. We're reading everything, weighing input from our partners and every contributor, and the next revision will reflect what we hear.
 >
-> **[Join the discussion + vote on Discord](https://discord.gg/krain-ai-1372610722592456804)** · **[Telegram](https://t.me/krainofficial)**
+> **Discuss it in the dedicated feedback channels:**
+> **[#whitepaper-v2 on Discord](https://discord.com/channels/1372610722592456804/1510821112638996560)** · **[Join the discussion on Telegram](https://t.me/kraincommunity)**
 
 ---
 
@@ -261,21 +262,21 @@ Sustained value depends on managing post-TGE sell pressure. KRAIN combines sever
 
 ## 6. Roadmap
 
-KRAIN is shipping in phases. The current phase is foundation and pre-mainnet engineering.
+KRAIN is shipping in phases. The current phase is foundation and pre-mainnet engineering. The timelines below are **rough targets, not commitments** — directional guidance to show the intended pace.
 
-**Phase 0 — Foundation (current).** Protocol architecture finalized. Core contracts implemented and under test. Solver node operational with GPU support. Open-source repositories live. This whitepaper. Strategic partnerships and grant applications in progress.
+**Phase 0 — Foundation — *now (mid-2026)*.** Protocol architecture finalized. Core contracts implemented and under test. Solver node operational with GPU support. Open-source repositories live. This whitepaper. Strategic partnerships and grant applications in progress.
 
-**Phase 1 — Testnet.** Public testnet at `testnet.krain.ai`. SDK alpha (TypeScript) and SDK beta (Python). Developer documentation. Incentivized testnet program. First wave of agent template launches.
+**Phase 1 — Testnet — *early summer 2026*.** Public testnet at `testnet.krain.ai`. SDK alpha (TypeScript) and SDK beta (Python). Developer documentation. Incentivized testnet program. First wave of agent template launches.
 
-**Phase 2 — Developer adoption.** Developer grant program funded from the ecosystem allocation. Framework integrations (LangChain, CrewAI, ElizaOS, and other widely-used agent stacks). First hackathon. Ambassador program expansion. Preview of the "Build to Earn" retroactive rewards model.
+**Phase 2 — Developer adoption — *summer 2026*.** Developer grant program funded from the ecosystem allocation. Framework integrations (LangChain, CrewAI, ElizaOS, and other widely-used agent stacks). First hackathon. Ambassador program expansion. Preview of the "Build to Earn" retroactive rewards model.
 
-**Phase 3 — Mainnet and TGE.** Mainnet launch. $KRAIN TGE via IAO bonding curve. Staking live. x402 settlement live. "First $1,000" program to subsidize early agent launches.
+**Phase 3 — Mainnet and TGE — *targeting late summer 2026*.** Mainnet launch. $KRAIN TGE via IAO bonding curve. Staking live. x402 settlement live. "First $1,000" program to subsidize early agent launches.
 
-**Phase 4 — Growth.** Exchange listings as market conditions support them. Permissionless solver node set. DAO governance transition. Conference presence. Retroactive Builder Rewards program (Optimism RetroPGF-inspired).
+**Phase 4 — Growth — *late 2026 into 2027*.** Exchange listings as market conditions support them. Permissionless solver node set. DAO governance transition. Conference presence. Retroactive Builder Rewards program (Optimism RetroPGF-inspired).
 
-**Phase 5 — Maturity.** Decentralized sequencer. Cross-chain agent operations. Full DAO governance. Tier-1 exchange listings.
+**Phase 5 — Maturity — *2027 and beyond*.** Decentralized sequencer. Cross-chain agent operations. Full DAO governance. Tier-1 exchange listings.
 
-Phase numbering and order are firm. Dates inside any phase remain subject to security review, audit timelines, and partnership readiness, and will be confirmed in formal release notes rather than in this document.
+Phase numbering and order are firm; the quarter/season targets above are directional and depend on security review, audit timelines, and partnership readiness. Exact dates are confirmed in formal release notes rather than in this document.
 
 ---
 
@@ -317,11 +318,11 @@ The remainder of the work is execution.
 
 ## Help shape v2.1
 
-This whitepaper is a living document, and the next revision will reflect what the community and our partners tell us. We want your read on the open questions — the buyback rate, the airdrop and anti-dump mechanics, the vesting cliffs, the staking model, and the exchange-listing criteria.
+This whitepaper is a **work in progress**, and the next revision will reflect what the community and our partners tell us. We want your read on the open questions — the buyback rate, the airdrop and anti-dump mechanics, the vesting cliffs, the staking model, and the exchange-listing criteria.
 
-Leave feedback and vote in the community. Every voice counts, and we will adjust as the input warrants.
+Head to the dedicated feedback channels and tell us what you think. Every voice counts, and we will adjust as the input warrants.
 
-**[Discuss + vote on Discord](https://discord.gg/krain-ai-1372610722592456804)** · **[Telegram](https://t.me/krainofficial)**
+**[#whitepaper-v2 on Discord](https://discord.com/channels/1372610722592456804/1510821112638996560)** · **[Join the discussion on Telegram](https://t.me/kraincommunity)**
 
 ---
 
