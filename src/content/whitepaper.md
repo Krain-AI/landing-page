@@ -182,7 +182,29 @@ The $KRAIN token is the single native economic asset of the KRAIN ecosystem. It 
 
 The allocation profile is in line with established L2 precedent (Arbitrum, Optimism). Team allocation is slightly lower than Arbitrum's 27% to reflect a lean founding team and to bias more supply toward ecosystem growth.
 
-Genesis and pre-formation contributors — early contractors, moderators, ambassadors, and others who supported the project before the protocol's formation — are recognized within the existing Team and Ecosystem & Developer allocations under standardized contributor terms and standard vesting. These commitments sit inside the buckets above and create no additional dilution. Contributor allocations are distributed in $KRAIN under the same terms that apply to comparable categories, and details of how recognized contributors receive and claim their allocation are published through the official KRAIN community channels.
+**Pre-Formation Contributor Recognition Programme**
+
+KRAIN operates a standing Pre-Formation Contributor Recognition Programme for individuals and teams who contributed to the project before the protocol's formal formation — including early contractors, moderators, ambassadors, creators, and other operators. This is the project's standard, discretionary programme.
+
+**Pool.** A fixed allocation of **10,000,000 $KRAIN — 1% of total supply** — is reserved for this programme, drawn from the Team & Founders and Ecosystem & Developer allocations above. This creates no additional dilution.
+
+**Allocation rule.** Allocations are determined by contribution units, calculated as:
+
+> **Tier weight × months of verified active contribution**, capped at 24 months.
+
+Tier weights reflect the nature and extent of contribution at the project's discretion:
+
+| Tier | Description | Weight |
+|---|---|---|
+| T1 — Core | Sustained, substantive, project-critical work | 3 |
+| T2 — Regular | Consistent ongoing contribution | 2 |
+| T3 — Occasional | Episodic or short-duration contribution | 1 |
+
+An individual's allocation is: **(your contribution units ÷ total contribution units across all recognised contributors) × 10,000,000 $KRAIN**
+
+**Vesting.** Allocations are distributed in $KRAIN under standard contributor vesting terms.
+
+**Discretion.** This programme is wholly discretionary. Whether, when, to whom, and in what amount any allocation is made remains at the project's sole and absolute discretion. $KRAIN is a utility token: allocations under this programme carry no guaranteed monetary value, are not redeemable for fiat, and are not compensation denominated in any currency. Tier assignments and verified months for each recognised contributor are determined at the project's sole discretion.
 
 ### 5.3 Vesting
 
