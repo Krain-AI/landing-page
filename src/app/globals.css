@@ -210,6 +210,12 @@
 .whitepaper-prose a.anchor:hover {
   color: #8781BB;
 }
+.whitepaper-prose img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  margin: 1.5rem 0;
+}
 .whitepaper-prose strong {
   color: #ffffff;
   font-weight: 600;
