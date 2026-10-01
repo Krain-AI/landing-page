@@ -4,11 +4,6 @@ import Link from "next/link";
 export function Partners() {
   const partners = [
     {
-      name: "Decubate",
-      url: "https://decubate.com",
-      logo: "/logo-decubate.svg",
-    },
-    {
       name: "Kairon",
       url: "https://kairon.ai",
       logo: "/logo-kairon.svg",
