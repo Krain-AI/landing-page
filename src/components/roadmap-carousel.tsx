@@ -63,7 +63,10 @@ export function RoadmapCarousel() {
       <h2 className="text-3xl md:text-5xl font-bold text-white mb-16">
         Roadmap
       </h2>
-      <CustomCarousel controlsClassName="flex justify-end gap-2 mb-16">
+      <CustomCarousel
+        controlsClassName="flex justify-end gap-2 mb-16"
+        className="overflow-hidden md:[mask-image:linear-gradient(to_right,transparent,black_calc((100%_-_420px)/2),black_calc((100%_+_420px)/2),transparent)] md:[-webkit-mask-image:linear-gradient(to_right,transparent,black_calc((100%_-_420px)/2),black_calc((100%_+_420px)/2),transparent)]"
+      >
         {phases.map((phase, index) => (
           <div key={index} className="w-full">
             <PhaseCard {...phase} />
